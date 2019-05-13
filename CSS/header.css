@@ -1,0 +1,6 @@
+.jumbotron {
+  background: url(../assets/space.jpeg) no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
