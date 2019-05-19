@@ -1,0 +1,34 @@
+#portfolio > .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#portfolio > .container > .row.no-gutters {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#portfolio > .container > .row.no-gutters > .col > p {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 1%;
+  right: 1%;
+  text-align: center;
+  z-index: 5;
+}
+
+#porfolio-img1{
+  z-index: 6;
+}
+
+#porfolio-img1:hover{
+  z-index: 4;
+}
