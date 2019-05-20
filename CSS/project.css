@@ -5,26 +5,60 @@
   flex-wrap: wrap;
   margin-right: 0px;
   margin-left: 0px;
+  overflow: hidden;
 }
 
 #portfolio > .container > .row.no-gutters {
-    max-width: 906px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+   
     
 }
 
 
-#portfolio > .container > .row.no-gutters > .col > p {
+.portfolio-description {
   position: absolute;
-  top: 50%;
-  bottom: 50%;
+  top: 15%;
+  bottom: 85%;
   left: 1%;
   right: 1%;
   text-align: center;
-  z-index: 5;
+  z-index: 1;
   color: white;
+  opacity: 0;
+  font-size: 100%;
 }
+
+.image:hover + .portfolio-description {
+  opacity: 1;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 180%;
+} 
+
+/* .portfolio-title {
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  left: 1%;
+  right: 1%;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  opacity: 0.5;
+}
+.image:hover + .portfolio-title {
+  opacity: 1;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+} */
+
+
 
 .image:after {
   content: '\A';
@@ -41,3 +75,17 @@
   opacity: 1;
 }
 
+/* .portfolio-description:after {
+  content: '\A';
+  position: absolute;
+  width: 100%; height:100%;
+  top:0; left:0;
+  color: white;
+  opacity: 0;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+}
+
+.portfolio-description:hover:after {
+  opacity: 1;
+} */
