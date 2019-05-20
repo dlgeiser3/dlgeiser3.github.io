@@ -9,3 +9,10 @@
 #about-photo {
   width: 85%;
 }
+
+.btn {
+  background-color: #14293C;
+  border-radius: 4px;
+  z-index: 5;
+  color: white;
+}
