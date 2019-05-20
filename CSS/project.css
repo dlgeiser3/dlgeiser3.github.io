@@ -8,7 +8,7 @@
 }
 
 #portfolio > .container > .row.no-gutters {
-    max-width: 900px;
+    max-width: 906px;
     margin-left: auto;
     margin-right: auto;
     
@@ -23,12 +23,21 @@
   right: 1%;
   text-align: center;
   z-index: 5;
+  color: white;
 }
 
-#porfolio-img1{
-  z-index: 6;
+.image:after {
+  content: '\A';
+  position: absolute;
+  width: 100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.6);
+  opacity: 0;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
 }
 
-#porfolio-img1:hover{
-  z-index: 4;
+.image:hover:after {
+  opacity: 1;
 }
+

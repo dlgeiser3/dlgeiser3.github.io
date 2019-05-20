@@ -1,6 +1,11 @@
 .footer {
-  background-color: teal;
+  background-color: #14293C;
   width: 100%;
-  height: 30px;
+  height: 50px;
   z-index: 3;
+}
+
+.footer > p {
+  color: white;
+  text-align: center;
 }

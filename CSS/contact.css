@@ -1,5 +1,6 @@
 .btn.btn-lg.btn-black {
-  background-color: gray;
+  background-color: #14293C;
   border-radius: 4px;
   z-index: 5;
+  color: white;
 }
