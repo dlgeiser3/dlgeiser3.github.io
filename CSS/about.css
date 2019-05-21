@@ -15,4 +15,9 @@
   border-radius: 4px;
   z-index: 5;
   color: white;
+  
+}
+.btn:hover{
+  background-color: rgba(20, 41, 60, .8);
+  color: white;
 }

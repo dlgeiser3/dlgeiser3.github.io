@@ -4,3 +4,7 @@
   z-index: 5;
   color: white;
 }
+
+.success > .btn:hover {
+  background-color: rgba(20, 41, 60, .8);
+}
